@@ -1,0 +1,6 @@
+phonenumbers
+pdfplumber
+requests
+python-dateutil
+click
+pytest

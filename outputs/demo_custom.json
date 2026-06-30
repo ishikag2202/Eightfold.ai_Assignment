@@ -1,0 +1,25 @@
+{
+  "id": "0263b0d0-e78a-42c2-9de6-23510685c5eb",
+  "name": "Jane Doe",
+  "tagline": "Senior Software Engineer with 6+ years of experience building ML infrastructure and backend systems at scale",
+  "years_exp": 7.9,
+  "based_in": {
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "US"
+  },
+  "top_skills": [
+    "Python",
+    "Kubernetes",
+    "Machine Learning",
+    "PyTorch",
+    "Docker"
+  ],
+  "companies": [
+    "Google LLC",
+    "Amazon"
+  ],
+  "school": [
+    "IIT Delhi"
+  ]
+}

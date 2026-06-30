@@ -1,0 +1,15 @@
+Call notes - June 20, 2026
+
+Spoke with Jane on the phone for about 20 minutes. She's currently at Google
+working on their ML infrastructure team as a Senior Software Engineer. Strong
+background in Python and Kubernetes. Mentioned she's interested in AI/ML
+leadership roles going forward. Has roughly 6 years of total experience,
+previously at Amazon as an SDE II.
+
+Contact info she gave verbally: jane.doe@gmail.com, prefers email over phone.
+
+LinkedIn: https://www.linkedin.com/in/janedoe-eng
+GitHub: https://github.com/octocat
+
+Overall impression: strong technical communicator, would be a good fit for
+backend/ML platform roles. Following up next week.

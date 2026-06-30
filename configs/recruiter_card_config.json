@@ -1,0 +1,14 @@
+{
+  "fields": [
+    { "path": "id", "from": "candidate_id", "type": "string", "required": true },
+    { "path": "name", "from": "full_name", "type": "string", "required": true },
+    { "path": "tagline", "from": "headline", "type": "string" },
+    { "path": "years_exp", "from": "years_experience", "type": "number" },
+    { "path": "based_in", "from": "location", "type": "object" },
+    { "path": "top_skills", "from": "skills[].name", "type": "string[]", "normalize": "canonical" },
+    { "path": "companies", "from": "experience[].company", "type": "string[]" },
+    { "path": "school", "from": "education[].institution", "type": "string[]" }
+  ],
+  "include_confidence": false,
+  "on_missing": "omit"
+}

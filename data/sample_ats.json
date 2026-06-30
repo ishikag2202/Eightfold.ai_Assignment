@@ -1,0 +1,30 @@
+{
+  "applicant_name": "Jane  Doe",
+  "contact_email": "Jane@Gmail.com",
+  "mobile": "4155550192",
+  "org": "Google LLC",
+  "role": "Sr. Software Engineer",
+  "skills_list": ["python", "Kubernetes", "ml", "pytorch", "Docker"],
+  "work_history": [
+    {
+      "employer": "Google LLC",
+      "position": "Sr. Software Engineer",
+      "from": "2021-03",
+      "to": null
+    },
+    {
+      "employer": "Amazon",
+      "position": "SDE II",
+      "from": "2018-06",
+      "to": "2021-02"
+    }
+  ],
+  "education": [
+    {
+      "school": "IIT Delhi",
+      "degree": "B.Tech",
+      "major": "Computer Science",
+      "year": 2018
+    }
+  ]
+}

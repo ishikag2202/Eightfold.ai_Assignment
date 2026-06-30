@@ -1,0 +1,25 @@
+{
+  "candidate_id": "92908683-ff76-4c18-bdad-09a523075d72",
+  "full_name": "John Smith",
+  "emails": [],
+  "phones": [],
+  "location": null,
+  "links": {},
+  "headline": null,
+  "years_experience": null,
+  "skills": [],
+  "experience": [],
+  "education": [],
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "field_priority",
+      "normalization": "whitespace_cleanup",
+      "confidence": 0.9
+    }
+  ],
+  "conflicts": [],
+  "overall_confidence": 0.18,
+  "source_count": 1
+}

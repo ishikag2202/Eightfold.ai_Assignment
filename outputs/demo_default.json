@@ -1,0 +1,71 @@
+{
+  "full_name": "Jane Doe",
+  "primary_email": "jane.doe@gmail.com",
+  "phone": "+14155550192",
+  "skills": [
+    "Python",
+    "Kubernetes",
+    "Machine Learning",
+    "PyTorch",
+    "Docker"
+  ],
+  "overall_confidence": 1.0,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "ats_json",
+      "method": "field_priority",
+      "normalization": "whitespace_cleanup",
+      "confidence": 1.0
+    },
+    {
+      "field": "headline",
+      "source": "resume_pdf",
+      "method": "field_priority",
+      "normalization": "none",
+      "confidence": 0.81
+    },
+    {
+      "field": "location",
+      "source": "resume_pdf",
+      "method": "field_priority",
+      "normalization": "city_region_country_split",
+      "confidence": 0.81
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "union_dedup",
+      "normalization": "lowercase_trim",
+      "confidence": 1.0
+    },
+    {
+      "field": "emails",
+      "source": "ats_json",
+      "method": "union_dedup",
+      "normalization": "lowercase_trim",
+      "confidence": 0.95
+    },
+    {
+      "field": "phones",
+      "source": "ats_json",
+      "method": "union_dedup",
+      "normalization": "E164",
+      "confidence": 1.0
+    },
+    {
+      "field": "experience",
+      "source": "ats_json",
+      "method": "field_priority",
+      "normalization": "date_to_YYYY-MM",
+      "confidence": 0.95
+    },
+    {
+      "field": "education",
+      "source": "ats_json",
+      "method": "field_priority",
+      "normalization": "none",
+      "confidence": 0.95
+    }
+  ]
+}
